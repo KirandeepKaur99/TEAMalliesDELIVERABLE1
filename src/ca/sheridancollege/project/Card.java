@@ -19,6 +19,9 @@ public abstract class Card {
      *
      * @return a String representation of a card. Could be an UNO card, a regular playing card etc.
      */
+
     public abstract int rankValue();
     @Override public abstract String toString();
 }
+
+
