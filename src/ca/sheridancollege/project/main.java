@@ -11,11 +11,9 @@ package ca.sheridancollege.project;
 public class main {
     
     public static void main(String[] args) {
-        // Create players (names will be asked interactively in GoFishGame)
+        
         GoFishPlayer player1 = new GoFishPlayer("");
         GoFishPlayer player2 = new GoFishPlayer("");
-
-        // Create and run the game
         GoFishGame game = new GoFishGame(player1, player2);
         game.play();
     }
